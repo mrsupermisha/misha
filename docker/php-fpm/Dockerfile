@@ -88,8 +88,6 @@ RUN curl -sS https://getcomposer.org/installer | tee composer-setup.php \
 
 ARG WORKING_DIR
 
-RUN ln -s $WORKING_DIR/bin/console /usr/bin/console
-
 CMD ["php-fpm", "-F"]
 
 EXPOSE 9000
