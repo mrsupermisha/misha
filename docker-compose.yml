@@ -1,4 +1,3 @@
-version: '3'
 services:
     misha_fpm:
         container_name: misha_fpm
